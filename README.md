@@ -27,3 +27,4 @@ Make sure the path matches the location where you cloned the repo. Choose whatev
   - The selection doesn't seem to support output of links (e.g. selection is plain text rather than rich text)
 - If the selected text already contains links, they will be overwritten.
 - Font size is not preserved, at least in Apple Notes. Heading vs. body text should be preserved though.
+- The script appends a log line to `~/linker.log` each time it runs, and this is never cleaned up.
